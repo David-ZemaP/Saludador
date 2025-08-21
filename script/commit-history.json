@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "David-ZemaP",
+    "commit": {
+      "date": "2025-08-21T14:16:53.000Z",
+      "message": "Feth: Saludador con nombre",
+      "url": "https://github.com/David-ZemaP/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 54,
+      "additions": 31,
+      "deletions": 23,
+      "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
