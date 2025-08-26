@@ -1,17 +1,36 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "f39c86e7b05c10a72a51cd2b80a81069b38865a4",
     "author": "David-ZemaP",
     "commit": {
       "date": "2025-08-21T14:16:53.000Z",
       "message": "Feth: Saludador con nombre",
-      "url": "https://github.com/David-ZemaP/Saludador/commit/HEAD"
+      "url": "https://github.com/David-ZemaP/Saludador/commit/f39c86e7b05c10a72a51cd2b80a81069b38865a4"
     },
     "stats": {
       "total": 54,
       "additions": 31,
       "deletions": 23,
       "date": "2025-08-21"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "David-ZemaP",
+    "commit": {
+      "date": "2025-08-26T02:52:26.000Z",
+      "message": "feat: Saludar segun la hora",
+      "url": "https://github.com/David-ZemaP/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 14,
+      "deletions": 2,
+      "date": "2025-08-26"
     },
     "coverage": 100,
     "test_count": 1,
