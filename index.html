@@ -6,9 +6,15 @@
   <body>
     <label>Nombre</label>
     <input type="text" id="nombre"/>
+    <label>Género</label>
+    <select id="genero">
+      <option value="">Seleccionar género</option>
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+      <option value="otro">Otro</option>
+    </select>
     <button id="enviar">Enviar</button>
     <div id="respuesta-div"></div>
-
     <script src="./src/presenter.js"></script>
   </body>
 </html>

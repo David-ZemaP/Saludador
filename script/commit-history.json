@@ -19,16 +19,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "169010d6d5a846344ce0dc3219dafee3a6476e15",
     "author": "David-ZemaP",
     "commit": {
       "date": "2025-08-26T02:52:26.000Z",
       "message": "feat: Saludar segun la hora",
-      "url": "https://github.com/David-ZemaP/Saludador/commit/HEAD"
+      "url": "https://github.com/David-ZemaP/Saludador/commit/169010d6d5a846344ce0dc3219dafee3a6476e15"
     },
     "stats": {
       "total": 16,
       "additions": 14,
+      "deletions": 2,
+      "date": "2025-08-26"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "David-ZemaP",
+    "commit": {
+      "date": "2025-08-26T03:07:43.000Z",
+      "message": "feat: Saludar por genero\n\nNo esta muy elaborado porque el saludo no varia mucho dependiendo del\ngenero",
+      "url": "https://github.com/David-ZemaP/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 19,
       "deletions": 2,
       "date": "2025-08-26"
     },
