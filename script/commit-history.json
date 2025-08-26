@@ -57,17 +57,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "359a85fbc4bfc22c277b6595678b7e9f62a110b5",
     "author": "David-ZemaP",
     "commit": {
       "date": "2025-08-26T03:24:43.000Z",
       "message": "feat: Saludar segun la edad",
-      "url": "https://github.com/David-ZemaP/Saludador/commit/HEAD"
+      "url": "https://github.com/David-ZemaP/Saludador/commit/359a85fbc4bfc22c277b6595678b7e9f62a110b5"
     },
     "stats": {
       "total": 19,
       "additions": 13,
       "deletions": 6,
+      "date": "2025-08-26"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "David-ZemaP",
+    "commit": {
+      "date": "2025-08-26T03:58:00.000Z",
+      "message": "fix: Errors in npm start",
+      "url": "https://github.com/David-ZemaP/Saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 22,
+      "deletions": 29,
       "date": "2025-08-26"
     },
     "coverage": 100,
