@@ -2,6 +2,7 @@ const nombre = document.querySelector('#nombre');
 const genero = document.querySelector('#genero');
 const enviar = document.querySelector('#enviar');
 const div = document.querySelector('#respuesta-div');
+const edad = document.querySelector('#edad');
 
 
 const getGreeting = (hour) => {
@@ -14,10 +15,15 @@ const getGreeting = (hour) => {
   return result;
 };
 
-const adjustGreetingForGender = (greeting, gender) => {
-  if (gender === 'femenino') {
-    return greeting.replace('Buenos', 'Buenas');
+const adjustGreetingForGenderAge = (greeting, gender, age) => {
+  // Then, add formal titles for people over 30
+  if (gender === 'femenino' && age > 30) {
+    return `${greeting} Sra.`;
   }
+  if (gender === 'masculino' && age > 30) {
+    return `${greeting} Sr.`;
+  }
+
   return greeting;
 };
 
@@ -26,7 +32,7 @@ enviar.addEventListener('click', (event) => {
 
   const hour = new Date().getHours();
   const greeting = getGreeting(hour);
-  const adjustedGreeting = adjustGreetingForGender(greeting, genero.value);
+  const adjustedGreeting = adjustGreetingForGenderAge(greeting, genero.value, parseInt(edad.value));
 
   div.innerHTML = `<p>${adjustedGreeting} ${nombre.value}</p>`;
 });
