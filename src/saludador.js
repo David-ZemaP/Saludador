@@ -8,14 +8,15 @@ export function getGreeting(hour){
   return result;
 }
 
-export function adjustGreetingForGenderAge(greeting, gender, age){
-  // Then, add formal titles for people over 30
-  if (gender === 'femenino' && age > 30) {
-    return `${greeting} Sra.`;
-  }
-  if (gender === 'masculino' && age > 30) {
+export function GreetingForGenderAge(greeting, gender, age){
+  if (age > 30){
+    if (gender === 'femenino'){
+      return `${greeting} Sra.`;
+    }
     return `${greeting} Sr.`;
   }
-
-  return greeting;
+  if (gender === 'femenino'){
+    return `${greeting} señorita`;
+  }
+  return `${greeting} joven`;
 }
